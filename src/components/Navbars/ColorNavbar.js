@@ -95,13 +95,13 @@ function ColorNavbar() {
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
                   <DropdownItem to="/presentation" tag={Link}>
-                    Design & Development
-                  </DropdownItem>
-                  <DropdownItem to="/index" tag={Link}>
                     Product Mgmt Consulting
                   </DropdownItem>
+                  <DropdownItem to="/index" tag={Link}>
+                    UX Audits and Guidance
+                  </DropdownItem>
                   <DropdownItem to="/presentation" tag={Link}>
-                    UX Strategy Insight
+                    Design and Development
                   </DropdownItem>
 
                   {/* <DropdownItem

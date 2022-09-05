@@ -9,7 +9,7 @@ function BlogPostHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
-    if (window.innerWidth > 991) {
+    if (window.innerWidth > 1200) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
         pageHeader.current.style.transform =
@@ -37,8 +37,8 @@ function BlogPostHeader() {
         <div className="filter" />
         <div className="content-center">
           <div className="motto">
-            <h1 className="title-uppercase text-center">Paper Kit</h1>
-            <h3 className="text-center">Make your mark with a new design.</h3>
+            <h1 className="title-uppercase text-center">Blog Posts</h1>
+            <h3 className="text-center">"We're robbing the Louvre?"</h3>
             <br />
             <Button
               className="btn-round"
@@ -47,8 +47,9 @@ function BlogPostHeader() {
               onClick={(e) => e.preventDefault()}
               size="lg"
             >
+              {/* FIGURE OUT HOW TO MAKE ALL THIS BULLSHIT WORK */}
               <i className="fa fa-share-alt mr-1 " />
-              Share Article
+              Create Article
             </Button>
           </div>
         </div>

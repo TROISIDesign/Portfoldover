@@ -28,9 +28,9 @@ function BlogPost() {
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto text-center title" md="6">
-                  <h2>A place for storytelling</h2>
+                  <h2>A place for keyword-stuffing</h2>
                   <h3 className="title-uppercase">
-                    <small>Written by designers for designers</small>
+                    <small>Written by robots for no one</small>
                   </h3>
                 </Col>
               </Row>
@@ -38,14 +38,14 @@ function BlogPost() {
                 <Col className="ml-auto mr-auto" md="10">
                   <div className="text-center">
                     <Badge className="main-tag" color="warning">
-                      Trending
+                      Popular
                     </Badge>
                     <a href="javascrip: void(0);">
                       <h3 className="title">
-                        Make Somebody Nervous Before You Die
+                        I've been all over Europe but never to Barcelona
                       </h3>
                     </a>
-                    <h6 className="title-uppercase">October 10, 2016</h6>
+                    <h6 className="title-uppercase">October 24, 2024</h6>
                   </div>
                 </Col>
                 <Col className="ml-auto mr-auto" md="8">
@@ -61,10 +61,10 @@ function BlogPost() {
                       }}
                     />
                     <p className="image-thumb text-center">
-                      Photo by Cam Adams
+                      Don't pay Getty Images
                     </p>
                   </a>
-                  <div className="article-content">
+                  <div>
                     <h4>Follow unconventional beliefs</h4>
                     <p>
                       You won’t find many concepts that are very useful or

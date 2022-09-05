@@ -23,24 +23,28 @@ function PresentationHeader() {
               <div className="title-brand">
                 <h2 className="presentation-title">
                   TROISI <h4>DESIGN</h4>
-                  <br></br> <small>web & mobile dev</small>
+                  <br></br> <small>Product Consulting</small>
                 </h2>
-                <div className="fog-low">
+                {/* <div className="fog-low">
                   <img
                     alt="..."
                     src={require("assets/img/sections/fog-low.png").default}
                   />
-                </div>
-                <div className="fog-low right">
+                </div> */}
+                {/* <div className="fog-low right">
                   <img
                     alt="..."
                     src={require("assets/img/sections/fog-low.png").default}
                   />
-                </div>
+                </div> */}
               </div>
               <h2 className="presentation-subtitle text-center">
-                We specialize in multiple areas. Most involve making money.
-                Music does not.
+                Working in multiple areas - with expertise in product
+                management, UX, design and development - we offer a unique
+                perspective from a consultancy.
+                <br></br>
+                <br></br>
+                <button>Learn More</button>
               </h2>
             </Container>
           </div>

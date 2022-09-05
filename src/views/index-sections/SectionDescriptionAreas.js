@@ -28,6 +28,7 @@ function SectionDescriptionAreas() {
       <Container className="tim-container">
         <div id="description-areas">
           <div className="title">
+            <br></br>
             <h1>What I do:</h1>
           </div>
           <Row>
@@ -97,7 +98,7 @@ function SectionDescriptionAreas() {
               </TabContent>
             </Col>
             <Col md="7" sm="12">
-              <h2>Knowledge</h2>
+              <h2> Strategy</h2>
               <Row>
                 <Col md="4" sm="4" xs="6">
                   <div className="nav-tabs-navigation">
@@ -201,8 +202,9 @@ function SectionDescriptionAreas() {
         {/* info areas */}
         <div id="info-areas">
           <div className="title">
+            <br></br>
             <h1>What I do for you:</h1>
-            <h3>Save you money while making you money</h3>
+            <h3>Save you money...</h3>
           </div>
           <Row>
             <Col md="4">
@@ -256,7 +258,7 @@ function SectionDescriptionAreas() {
               </div>
             </Col>
           </Row>
-          <h3>Make you money</h3>
+          <h3>While making you more</h3>
           <Row>
             <Col md="4">
               <div className="info">

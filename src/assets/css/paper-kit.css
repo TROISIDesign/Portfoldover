@@ -6428,7 +6428,7 @@ textarea.form-control {
   z-index: 1; }
   .page-header.page-header-small {
     min-height: 65vh !important;
-    max-height: 700px; }
+    max-height: 600px; }
   .page-header.page-header-xs {
     min-height: 40vh !important; }
   .page-header .page-header-image {
@@ -9830,7 +9830,7 @@ body {
 #testimonials .testimonials-2 .card {
   margin-top: 10px; }
   #testimonials .testimonials-2 .card .carousel-inner {
-    height: 500px; }
+    height: 400px; }
     #testimonials .testimonials-2 .card .carousel-inner .carousel-item {
       height: 100%;
       width: 100%; }
