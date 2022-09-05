@@ -1,5 +1,8 @@
-Robust file structure
+## Robust file structure
+
 (A lot of these files are redundant or worthless so they've been left out)
+
+```
 .
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
