@@ -70,15 +70,16 @@ function WhiteNavbar() {
                   Services
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
+                  <DropdownItem to="/presentation" tag={Link}>
+                    Design & Development
+                  </DropdownItem>
                   <DropdownItem to="/index" tag={Link}>
                     Product Mgmt Consulting
                   </DropdownItem>
                   <DropdownItem to="/presentation" tag={Link}>
                     UX Strategy Insight
                   </DropdownItem>
-                  <DropdownItem to="/presentation" tag={Link}>
-                    Design & Development
-                  </DropdownItem>
+
                   {/* <DropdownItem
                     href="https://demos.creative-tim.com/paper-kit-pro-react/#/documentation/introduction?ref=pkpr-white-navbar"
                     target="_blank"

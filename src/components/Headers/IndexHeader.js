@@ -21,7 +21,7 @@ function IndexHeader() {
             <h2 className="text-center">Design | Build | Manage </h2>
             <h3 className="red-product">Service as a Product</h3>
             <h4 className="text-center">
-              <small>I help you make $$.</small>
+              <small>(I help you make $$)</small>
             </h4>
           </div>
         </div>

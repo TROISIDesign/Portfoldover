@@ -66,7 +66,7 @@ function ColorNavbar() {
       >
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand id="navbar-brand" to="/index" tag={Link}>
+            <NavbarBrand id="navbar-brand" to="/presentation" tag={Link}>
               TROiSi Design Ltd
             </NavbarBrand>
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
@@ -94,15 +94,16 @@ function ColorNavbar() {
                   Services
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
+                  <DropdownItem to="/presentation" tag={Link}>
+                    Design & Development
+                  </DropdownItem>
                   <DropdownItem to="/index" tag={Link}>
                     Product Mgmt Consulting
                   </DropdownItem>
                   <DropdownItem to="/presentation" tag={Link}>
                     UX Strategy Insight
                   </DropdownItem>
-                  <DropdownItem to="/presentation" tag={Link}>
-                    Design & Development
-                  </DropdownItem>
+
                   {/* <DropdownItem
                     href="https://demos.creative-tim.com/paper-kit-pro-react/#/documentation/introduction?ref=pkpr-color-navbar"
                     target="_blank"
